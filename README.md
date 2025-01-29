@@ -12,11 +12,11 @@ int main() {
 }
 ```
 2. **Compile the program**:  
-   ```bash
-      make
-   ```
+```bash
+make
+```
 
 3. **Run the program**:
-   ```bash
-      ./ft_printf
-   ```
+```bash
+./ft_printf
+```
