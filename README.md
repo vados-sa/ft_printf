@@ -3,12 +3,17 @@ ft_printf is a custom implementation of the standard `printf` function in C. Thi
 
 This project deepened my understanding of how printf() works under the hood.
 
+## 🚀 Features  
+- Supports basic format specifiers: `%c`, `%s`, `%p`, `%d`, `%i`, `%u`, `%x`, `%X`
+- Uses variadic arguments (`va_list`) 
+
 ## 🔧 Usage  
 1. **Include at the bottom of 'ft_ptintf.c'**:
 ```c
-int main() {
-    ft_printf("Hello, %s!\n", "world");
-    return 0;
+int main()
+{
+    ft_printf("Hello, %s!\n", "world"); // or any other supported format specifiers.
+    return (0);
 }
 ```
 2. **Compile the program**:  
